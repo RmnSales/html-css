@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>xing xong</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplemente diminua e aumente o tamanho do navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="../img/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="../img/foto-m.png" type="image/png">
+        <img src="../img/foto-g.png" alt="Imagem flexivel">
+    </picture>
+
+    <audio src="parei-familia-e-mafia.mp3" controls autoplay></audio>
+
+    <audio preload="metadata" autoplay controls>
+        <source src="parei-familia-e-mafia.mp3" type="audio/mpeg">
+        <source src="parei-familia-e-mafia.ogg" type="audio/ogg">
+        <source src="parei-familia-e-mafia.wav" type="audio/wav">
+    </audio>
+    <h1>Se nenhuma opcao acima funcionar seu navegador e pirata</h1>
+    <p>pare de mafia</p>
+</body>
+</html>
