@@ -3,9 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
 
-* {
-
-}
 .root {
     --fonte-1: Verdana, Geneva, Tahoma, sans-serif;
     --fonte-2: 'Passion One', sans-serif;
@@ -15,6 +12,5 @@
 header {
     color: white;
     background-color: black;
-    padding:
     text-align: center;
 }
