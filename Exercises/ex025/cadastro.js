@@ -1,0 +1,1 @@
+const elemento = 'todos os arquivos irao para ca!!!'
